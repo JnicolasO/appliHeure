@@ -1,0 +1,73 @@
+.heures {
+  display: ruby;
+  text-align: center;
+}
+.heures ul {
+  list-style-type: none;
+}
+.heures li {
+  border-bottom: rgb(128, 128, 128) solid 0.5px;
+}
+body {
+  background-color: #011627;
+  color: aliceblue;
+}
+.form {
+  display: grid;
+  text-align: center;
+  border: aliceblue 1px solid;
+  border-radius: 3px;
+}
+.form input {
+  margin: 5px;
+}
+.head {
+  display: flex;
+  padding-bottom: 2%;
+  text-transform: uppercase;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+.header {
+  display: contents;
+}
+.header th {
+  padding: 10px;
+}
+.line td {
+  border: rgb(255, 255, 255) solid 1px;
+  padding: 5px;
+  text-align: center;
+  background-color: #151515;
+}
+.totalmois {
+  border: solid 1px;
+  display: inline-grid;
+  padding: 8px;
+  margin-left: 20px;
+}
+.endtotal {
+  display: ruby-base-container;
+  margin-left: 200px;
+}
+.mois {
+  border: solid 1px;
+  padding: 2px;
+  display: -webkit-inline-box;
+  background-color: #151515;
+}
+.mois input {
+  display: none;
+}
+.mois label {
+  cursor: pointer;
+  margin: 10px;
+}
+.logo {
+  width: 100px;
+  margin-left: 226px;
+}
